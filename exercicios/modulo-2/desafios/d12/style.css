@@ -8,6 +8,7 @@
 body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -25,11 +26,6 @@ body {
     font-style: normal;
 }
 
-body {
-    font-family: 'Sriracha';
-}
-
-
 header {
     background-color: black;
     color: white;
@@ -38,9 +34,10 @@ header {
 }
 
 header h1 {
+    font-family: 'Passion';
     padding-top: 50px;
     font-variant: small-caps;
-    font-size: 4em;
+    font-size: 10vw;
 }
 
 header p {
@@ -77,6 +74,8 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: 'Sriracha';
+    font-size: 3.5vw;
 }
 
 
@@ -85,6 +84,7 @@ section.normal {
 }
 
 section.imagem p {
-    width: 300px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.205);
 }
